@@ -1,0 +1,31 @@
+{
+  "name" : "quiz/quizbundle",
+  "description" : "A demo quiz bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "abdou",
+    "email" : "saiid.abdeljabar@gmail.com"
+  }],
+  "keywords" : [
+    "demo quiz bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Quiz\\QuizBundle" : ""
+    }
+  },
+  "target-dir" : "Quiz/QuizBundle",
+    "repositories" : [{
+      "type" : "vcs",
+      "url" : "https://github.com/Quiz/QuizBundle.git"    }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1-dev"
+    }
+  }
+}
